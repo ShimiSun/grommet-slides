@@ -1,8 +1,33 @@
-import Slide1 from './Slide1';
-import Slide2 from './Slide2';
-import Slide3 from './Slide3';
-import Slide4 from './Slide4';
+import Shimi from './Shimi';
+import OpenSource from './OpenSource';
+import BuildingBlocks from './BuildingBlocks';
+import Comparisons from './Comparisons';
+import TS from './TS';
+import GrommetTools from './GrommetTools';
+import PackageMngt from './PackageMngt';
+import Styled from './Styled';
+import DevTools from './DevTools';
+import Tests from './Tests';
+import TestImgSlack from './TestImgSlack';
+import TestImgGit from './TestImgGit';
+import Typescript from './Typescript';
+import Chromatic from './Chromatic';
 
-const slides = [Slide1, Slide2, Slide3, Slide4];
+const slides = [
+  Shimi,
+  OpenSource,
+  BuildingBlocks,
+  Comparisons,
+  GrommetTools,
+  PackageMngt,
+  Styled,
+  DevTools,
+  Typescript,
+  TS,
+  Tests,
+  TestImgSlack,
+  TestImgGit,
+  Chromatic,
+];
 
 export { slides };

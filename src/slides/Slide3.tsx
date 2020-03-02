@@ -7,9 +7,8 @@ export default () => (
     align="start"
     background="accent-3"
     justify="start"
-  >
-    {`
-      # Slide 3
-    `}
-  </Slide>
+    markdownChildren={`
+    # Slide 3
+  `}
+  ></Slide>
 );

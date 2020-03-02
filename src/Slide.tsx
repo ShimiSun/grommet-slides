@@ -1,49 +1,54 @@
-import { Box, BoxProps, Markdown, MarkdownProps } from "grommet";
-import * as React from "react";
+import { Box, BoxProps, Markdown, MarkdownProps } from 'grommet';
+import * as React from 'react';
 
 export interface IProps {
-  align?: BoxProps["align"];
-  animation?: BoxProps["animation"];
-  background?: BoxProps["background"];
-  children: string;
-  components?: MarkdownProps["components"];
-  justify?: BoxProps["justify"];
+  align?: BoxProps['align'];
+  animation?: BoxProps['animation'];
+  background?: BoxProps['background'];
+  children?: React.ReactNode;
+  components?: MarkdownProps['components'];
+  justify?: BoxProps['justify'];
+  markdownChildren?: string | undefined;
 }
 
-const Slide: React.SFC<IProps> = ({
+const Slide: React.FC<IProps> = ({
   align,
   animation,
   background,
   children,
+  markdownChildren,
   components,
   justify,
   ...rest
 }) => (
-  <Box fill={true} background={background} pad="xlarge" animation="fadeIn">
+  <Box fill background={background} pad="large" animation="fadeIn">
     <Box
       {...rest}
-      fill={true}
+      fill
       animation={
-        typeof animation === "object"
+        typeof animation === 'object'
           ? animation
-          : { type: animation, size: "large" }
+          : { type: animation, size: 'large' }
       }
       align={align}
       justify={justify}
     >
-      <Markdown components={components}>
-        {children.replace(/^[^\S\r\n]+/gm, "")}
-      </Markdown>
+      {markdownChildren && (
+        <Markdown components={components}>
+          {markdownChildren && markdownChildren.replace(/^[^\S\r\n]+/gm, '')}
+        </Markdown>
+      )}
+      {children}
     </Box>
   </Box>
 );
 
 Slide.defaultProps = {
-  align: "center",
-  animation: "fadeIn",
+  align: 'center',
+  animation: 'fadeIn',
   background: undefined,
   components: undefined,
-  justify: "center",
+  justify: 'center',
 };
 
 export default Slide;

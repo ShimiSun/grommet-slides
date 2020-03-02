@@ -95,7 +95,7 @@ const Viewer: React.FC<IProps> = ({ slides }) => {
     setCurrent(current < slides.length - 1 ? current + 1 : 0);
   };
 
-  const onKeyDown = (event: KeyboardEvent): void => {
+  const onKeyDown = (event: React.KeyboardEvent<HTMLElement>): void => {
     const { keyCode } = event;
     const current = keyCode - 49;
     if (current >= 0 && current <= slides.length - 1) {
@@ -141,7 +141,7 @@ const Viewer: React.FC<IProps> = ({ slides }) => {
         onRight={onNext}
         onShift={enterFullscreen}
         onEsc={exitFullscreen}
-        // onKeyDown={onKeyDown}
+        onKeyDown={onKeyDown}
       >
         <Slide />
       </Keyboard>
