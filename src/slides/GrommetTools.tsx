@@ -66,7 +66,7 @@ const Mui = () => (
 );
 
 const Bootstrap = () => (
-  <Box alignSelf="end">
+  <Box alignSelf="start">
     <Bubble
       color="accent-2"
       animation={{
@@ -87,7 +87,8 @@ const Bootstrap = () => (
 
 const Grommet = () => (
   <Box
-    alignSelf="start"
+    alignSelf="end"
+    margin={{ bottom: 'xlarge' }}
     animation={{
       type: 'pulse',
       delay: 2200,
@@ -109,8 +110,8 @@ export default () => (
   <Slide background="light-4">
     <Box direction="row" fill gap="large">
       <Mui />
-      <Bootstrap />
       <Grommet />
+      <Bootstrap />
     </Box>
   </Slide>
 );

@@ -2,7 +2,7 @@
 import * as React from 'react';
 import Slide from '../Slide';
 
-import { Image, Box, Text, Anchor } from 'grommet';
+import { Box, Text, Anchor } from 'grommet';
 import { Linkedin as LinkedinOption, MailOption } from 'grommet-icons';
 
 export default () => (

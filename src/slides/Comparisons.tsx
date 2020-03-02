@@ -53,7 +53,7 @@ const Mui = () => (
         {
           type: 'slideUp',
           delay: 0,
-          duration: 300,
+          duration: 5000,
           size: 'xlarge',
         },
         {
@@ -79,9 +79,9 @@ const Bootstrap = () => (
       color="accent-2"
       animation={[
         {
-          type: 'slideDown',
+          type: 'slideUp',
           delay: 0,
-          duration: 4000,
+          duration: 3800,
           size: 'xlarge',
         },
         {
