@@ -1,8 +1,7 @@
 import * as React from 'react';
 import Slide from '../Slide';
-import StorybookGif from '../images/storybook.gif';
-
-import { Image } from 'grommet';
+import chromaticGif from '../images/chromatic.gif';
+import { Box, Image } from 'grommet';
 
 export default () => (
   <Slide
@@ -10,6 +9,8 @@ export default () => (
     animation="zoomIn"
     components={{ h1: { props: { size: 'xlarge' } } }}
   >
-    <Image src={StorybookGif} fit="contain" />
+    <Box height="xxlarge" width="xxlarge">
+      <Image src={chromaticGif} fit="contain" />
+    </Box>
   </Slide>
 );
