@@ -3,6 +3,7 @@
   "version": "0.3.0",
   "private": true,
   "dependencies": {
+    "@bit/grommet.grommet.range-input": "^2.11.1",
     "grommet": "^2.11.1",
     "grommet-icons": "^4.4.0",
     "react": "^16.13.0",
