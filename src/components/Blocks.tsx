@@ -20,7 +20,7 @@ export const Blocks = () => (
     />
     <Block
       pad={{ horizontal: 'medium', vertical: 'small' }}
-      label="Testing frameworks"
+      label="Testing Frameworks"
     />
     <Block pad="small" label="Deployment" />
     <Block pad="xsmall">

@@ -4,7 +4,7 @@ import { Blocks } from '../components';
 export default () => (
   <Slide
     animation="slideDown"
-    background="accent-1"
+    background="light-4"
     components={{ h1: { props: { size: 'medium' } } }}
     justify="start"
     markdownChildren={`

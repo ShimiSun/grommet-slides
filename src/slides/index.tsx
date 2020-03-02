@@ -11,7 +11,10 @@ import Tests from './Tests';
 import TestImgSlack from './TestImgSlack';
 import TestImgGit from './TestImgGit';
 import Typescript from './Typescript';
+import Storybook from './Storybook';
+import StorybookDemo from './StorybookDemo';
 import Chromatic from './Chromatic';
+import ChromaticSS from './ChromaticSS';
 
 const slides = [
   Shimi,
@@ -27,7 +30,10 @@ const slides = [
   Tests,
   TestImgSlack,
   TestImgGit,
+  Storybook,
+  StorybookDemo,
   Chromatic,
+  ChromaticSS,
 ];
 
 export { slides };

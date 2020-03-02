@@ -74,7 +74,7 @@ const Mui = () => (
 );
 
 const Bootstrap = () => (
-  <Box alignSelf="end">
+  <Box alignSelf="start">
     <Bubble
       color="accent-2"
       animation={[
@@ -86,7 +86,7 @@ const Bootstrap = () => (
         },
         {
           type: 'pulse',
-          delay: 2200,
+          delay: 4000,
           duration: 6500,
           size: 'medium',
         },
@@ -102,7 +102,7 @@ const Bootstrap = () => (
 );
 
 const Grommet = () => (
-  <Box alignSelf="start">
+  <Box alignSelf="end" margin={{ bottom: 'xlarge' }}>
     <Bubble
       color="accent-3"
       animation={[
@@ -114,7 +114,7 @@ const Grommet = () => (
         },
         {
           type: 'pulse',
-          delay: 2200,
+          delay: 5500,
           duration: 15000,
           size: 'large',
         },
@@ -133,8 +133,8 @@ export default () => (
   <Slide animation="slideUp" background="light-4">
     <Box direction="row" fill gap="large">
       <Mui />
-      <Bootstrap />
       <Grommet />
+      <Bootstrap />
     </Box>
   </Slide>
 );

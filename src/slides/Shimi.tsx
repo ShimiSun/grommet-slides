@@ -1,9 +1,8 @@
 /* eslint-disable max-len */
 import * as React from 'react';
 import Slide from '../Slide';
-// import Storybook_3 from '../images/storybook_3.mp4';
 
-import { Video, Box, Text, Anchor } from 'grommet';
+import { Image, Box, Text, Anchor } from 'grommet';
 import { Linkedin as LinkedinOption, MailOption } from 'grommet-icons';
 
 export default () => (
@@ -53,17 +52,5 @@ export default () => (
         color="brand-1"
       ></Anchor>
     </Box>
-    {/* <Video controls="over" fit="cover"> */}
-    <Video>
-      <source key="video" src="../images/storybook_3.mp4" type="video/mp4" />
-      {/* <track
-        key="cc"
-        label="English"
-        kind="subtitles"
-        srcLang="en"
-        src="/assets/small-en.vtt"
-        default
-      /> */}
-    </Video>
   </Slide>
 );
