@@ -2,7 +2,7 @@ import * as React from 'react';
 import Slide from '../Slide';
 import typescript from '../images/typescript.png';
 
-import {  Image } from 'grommet';
+import { Image } from 'grommet';
 
 export default () => (
   <Slide

@@ -1,5 +1,6 @@
 import Shimi from './Shimi';
 import OpenSource from './OpenSource';
+import Community from './Community';
 import BuildingBlocks from './BuildingBlocks';
 import Comparisons from './Comparisons';
 import TS from './TS';
@@ -14,11 +15,22 @@ import Typescript from './Typescript';
 import Storybook from './Storybook';
 import StorybookDemo from './StorybookDemo';
 import Chromatic from './Chromatic';
+import Hacktoberfest from './Hacktoberfest';
 import ChromaticSS from './ChromaticSS';
+import Strike from './Strike';
+import Kevin from './Kevin';
+import Accessibility from './Accessibility';
+import WCAG from './WCAG';
+import Responsiveness from './Responsiveness';
+import Modularity from './Modularity';
+import Theming from './Theming';
+import ThemeGif from './ThemeGif';
+import Thanks from './Thanks';
 
 const slides = [
   Shimi,
   OpenSource,
+  Community,
   BuildingBlocks,
   Comparisons,
   GrommetTools,
@@ -33,7 +45,17 @@ const slides = [
   Storybook,
   StorybookDemo,
   Chromatic,
+  Hacktoberfest,
   ChromaticSS,
+  Strike,
+  Kevin,
+  Accessibility,
+  WCAG,
+  Responsiveness,
+  Modularity,
+  Theming,
+  ThemeGif,
+  Thanks,
 ];
 
 export { slides };
