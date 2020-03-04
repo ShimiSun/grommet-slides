@@ -8,8 +8,12 @@ import { Box, Image } from 'grommet';
 export default () => (
   <Slide background="dark-1" animation="zoomIn">
     <Box direction="row">
-      <Image src={kevinThread} fit="contain" />
-      <Image src={kevin} fit="contain" />
+      <Box direction="row" gap="small" basis="1/3">
+        <Image src={kevinThread} fit="contain" />
+      </Box>
+      <Box direction="row" gap="small" basis="2/3">
+        <Image src={kevin} fit="contain" />
+      </Box>
     </Box>
   </Slide>
 );

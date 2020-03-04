@@ -1,4 +1,5 @@
 import Shimi from './Shimi';
+import Intro from './Intro';
 import OpenSource from './OpenSource';
 import Community from './Community';
 import BuildingBlocks from './BuildingBlocks';
@@ -25,10 +26,12 @@ import Responsiveness from './Responsiveness';
 import Modularity from './Modularity';
 import Theming from './Theming';
 import ThemeGif from './ThemeGif';
+import TShirt from './TShirt';
 import Thanks from './Thanks';
 
 const slides = [
   Shimi,
+  Intro,
   OpenSource,
   Community,
   BuildingBlocks,
@@ -55,6 +58,7 @@ const slides = [
   Modularity,
   Theming,
   ThemeGif,
+  TShirt,
   Thanks,
 ];
 
