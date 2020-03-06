@@ -28,8 +28,10 @@ import Theming from './Theming';
 import ThemeGif from './ThemeGif';
 import TShirt from './TShirt';
 import Thanks from './Thanks';
+import Demo from './Demo';
 
 const slides = [
+  Demo,
   Shimi,
   Intro,
   OpenSource,

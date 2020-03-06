@@ -3,6 +3,8 @@
   "version": "0.3.0",
   "private": true,
   "dependencies": {
+    "@bit/grommet.grommet-icons.grommet": "^4.2.0",
+    "@bit/grommet.grommet.chart": "^2.11.1",
     "grommet": "^2.11.1",
     "grommet-icons": "^4.4.0",
     "react": "^16.13.0",

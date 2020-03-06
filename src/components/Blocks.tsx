@@ -42,7 +42,9 @@ const Block = ({ label, pad, children }: BlockProps) => (
     border={{ color: 'brand-1', size: 'small' }}
     elevation="medium"
   >
-    <Text weight="bold" size="large">{label}</Text>
+    <Text weight="bold" size="large">
+      {label}
+    </Text>
     {children}
   </Box>
 );

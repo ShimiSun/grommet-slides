@@ -967,6 +967,187 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@bit/grommet.grommet-icons.grommet@^4.2.0":
+  version "4.2.0"
+  resolved "https://node.bit.dev/grommet.grommet-icons.grommet/-/grommet.grommet-icons.grommet-4.2.0.tgz#4f4ae5da550d061f58e91b3dae26673b26fd1a73"
+  integrity sha1-T0rl2lUNBh9Y6Rs9riZnOyb9GnM=
+  dependencies:
+    "@bit/grommet.grommet-icons.internal.styled-icon" "4.2.0"
+
+"@bit/grommet.grommet-icons.internal.default-props@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bit.dev/grommet.grommet-icons.internal.default-props/-/grommet.grommet-icons.internal.default-props-4.2.0.tgz#19b6131bc96b395fc2a5d9333440aa01a930851a"
+  integrity sha1-GbYTG8lrOV/CpdkzNECqAakwhRo=
+  dependencies:
+    "@bit/grommet.grommet-icons.internal.themes" "4.2.0"
+    "@bit/grommet.grommet-icons.internal.utils" "4.2.0"
+
+"@bit/grommet.grommet-icons.internal.styled-icon@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bit.dev/grommet.grommet-icons.internal.styled-icon/-/grommet.grommet-icons.internal.styled-icon-4.2.0.tgz#2aa81be4aa6fc8add8caa9227170f58f35b5ac5e"
+  integrity sha1-Kqgb5KpvyK3YyqkicXD1jzW1rF4=
+  dependencies:
+    "@bit/grommet.grommet-icons.internal.default-props" "4.2.0"
+    grommet-styles "^0.2.0"
+
+"@bit/grommet.grommet-icons.internal.themes@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bit.dev/grommet.grommet-icons.internal.themes/-/grommet.grommet-icons.internal.themes-4.2.0.tgz#540802e89ce251c56fc4137731af0651ac05dcf0"
+  integrity sha1-VAgC6JziUcVvxBN3Ma8GUawF3PA=
+
+"@bit/grommet.grommet-icons.internal.utils@4.2.0":
+  version "4.2.0"
+  resolved "https://node.bit.dev/grommet.grommet-icons.internal.utils/-/grommet.grommet-icons.internal.utils-4.2.0.tgz#6fadb59a5e94f653a0269ef6df37cef90412ff7e"
+  integrity sha1-b621ml6U9lOgJp723zfO+QQS/34=
+
+"@bit/grommet.grommet.chart@^2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.chart/-/grommet.grommet.chart-2.11.1.tgz#d9aa48739e920f9651212b87e1553add1d95d7a3"
+  integrity sha1-2apIc56SD5ZRISuH4VU63R2V16M=
+  dependencies:
+    "@bit/grommet.grommet.internal.default-props" "2.11.1"
+    "@bit/grommet.grommet.internal.utils.indexd" "2.11.1"
+    "@bit/grommet.grommet.utils.index" "2.11.1"
+    react-desc "^4.1.2"
+
+"@bit/grommet.grommet.internal.default-props@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.internal.default-props/-/grommet.grommet.internal.default-props-2.11.1.tgz#a8037ef33ca061e24a881c409f6035a7fae7bcf5"
+  integrity sha1-qAN+8zygYeJKiBxAn2A1p/rnvPU=
+  dependencies:
+    "@bit/grommet.grommet.themes" "2.11.1"
+    "@bit/grommet.grommet.utils.index" "2.11.1"
+
+"@bit/grommet.grommet.internal.utils.indexd@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.internal.utils.indexd/-/grommet.grommet.internal.utils.indexd-2.11.1.tgz#66a5b6bc89197c9060fda5e2be626ff32f7f0b20"
+  integrity sha1-ZqW2vIkZfJBg/aXivmJv8y9/CyA=
+
+"@bit/grommet.grommet.text@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.text/-/grommet.grommet.text-2.11.1.tgz#20f6ea66e6831ba7d97911d13c8c6f16b3626129"
+  integrity sha1-IPbqZuaDG6fZeRHRPIxvFrNiYSk=
+  dependencies:
+    "@bit/grommet.grommet.internal.default-props" "2.11.1"
+    "@bit/grommet.grommet.internal.utils.indexd" "2.11.1"
+    "@bit/grommet.grommet.utils.index" "2.11.1"
+    react-desc "^4.1.2"
+
+"@bit/grommet.grommet.themes@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.themes/-/grommet.grommet.themes-2.11.1.tgz#b302b6aee9e17d64f3140cb9b321fc411760c753"
+  integrity sha1-swK2runhfWTzFAy5syH8QRdgx1M=
+  dependencies:
+    "@bit/grommet.grommet.internal.utils.indexd" "2.11.1"
+    "@bit/grommet.grommet.text" "2.11.1"
+    "@bit/grommet.grommet.utils.colors" "2.11.1"
+    "@bit/grommet.grommet.utils.object" "2.11.1"
+    grommet-icons "^4.2.0"
+    polished "^3.4.1"
+
+"@bit/grommet.grommet.utils.background@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.background/-/grommet.grommet.utils.background-2.11.1.tgz#ee83e1f8cf81c4a3a9bd5c8cebf92de0374a1b24"
+  integrity sha1-7oPh+M+BxKOpvVyM6/kt4DdKGyQ=
+  dependencies:
+    "@bit/grommet.grommet.utils.colors" "2.11.1"
+
+"@bit/grommet.grommet.utils.border@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.border/-/grommet.grommet.utils.border-2.11.1.tgz#f24314126273ce1c605ba1383775f88f9b75e099"
+  integrity sha1-8kMUEmJzzhxgW6E4N3X4j5t14Jk=
+  dependencies:
+    "@bit/grommet.grommet.utils.colors" "2.11.1"
+    "@bit/grommet.grommet.utils.mixins" "2.11.1"
+
+"@bit/grommet.grommet.utils.colors@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.colors/-/grommet.grommet.utils.colors-2.11.1.tgz#295fb4c920495f14bafdeb25c59c054c43b9cace"
+  integrity sha1-KV+0ySBJXxS6/eslxZwFTEO5ys4=
+
+"@bit/grommet.grommet.utils.debounce@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.debounce/-/grommet.grommet.utils.debounce-2.11.1.tgz#e0684e59f1db97cb9b119ecbabfde996d3de8a4e"
+  integrity sha1-4GhOWfHbl8ubEZ7Lq/3pltPeik4=
+
+"@bit/grommet.grommet.utils.dom@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.dom/-/grommet.grommet.utils.dom-2.11.1.tgz#ee76713075f629cbc108a4d789f2df18566c1ce3"
+  integrity sha1-7nZxMHX2KcvBCKTXifLfGFZsHOM=
+
+"@bit/grommet.grommet.utils.graphics@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.graphics/-/grommet.grommet.utils.graphics-2.11.1.tgz#672b1cb4655145880e8ed039bb3f40c26f052920"
+  integrity sha1-ZysctGVRRYgOjtA5uz9Awm8FKSA=
+
+"@bit/grommet.grommet.utils.index@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.index/-/grommet.grommet.utils.index-2.11.1.tgz#2901053fc778d4c8b20f3539796b7112c83ebfd7"
+  integrity sha1-KQEFP8d41MiyDzU5eWtxEsg+v9c=
+  dependencies:
+    "@bit/grommet.grommet.utils.background" "2.11.1"
+    "@bit/grommet.grommet.utils.border" "2.11.1"
+    "@bit/grommet.grommet.utils.colors" "2.11.1"
+    "@bit/grommet.grommet.utils.debounce" "2.11.1"
+    "@bit/grommet.grommet.utils.dom" "2.11.1"
+    "@bit/grommet.grommet.utils.graphics" "2.11.1"
+    "@bit/grommet.grommet.utils.mixins" "2.11.1"
+    "@bit/grommet.grommet.utils.object" "2.11.1"
+    "@bit/grommet.grommet.utils.prop-types" "2.11.1"
+    "@bit/grommet.grommet.utils.responsive" "2.11.1"
+    "@bit/grommet.grommet.utils.router" "2.11.1"
+    "@bit/grommet.grommet.utils.styles" "2.11.1"
+    "@bit/grommet.grommet.utils.theme-doc-utils" "2.11.1"
+    "@bit/grommet.grommet.utils.throttle" "2.11.1"
+
+"@bit/grommet.grommet.utils.mixins@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.mixins/-/grommet.grommet.utils.mixins-2.11.1.tgz#7453af02f0e077640dfc09fbc7c0292f069e99f8"
+  integrity sha1-dFOvAvDgd2QN/An7x8ApLwaemfg=
+
+"@bit/grommet.grommet.utils.object@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.object/-/grommet.grommet.utils.object-2.11.1.tgz#467c3a37c59b9f33eb60f3aad2cbcacb095675a6"
+  integrity sha1-Rnw6N8WbnzPrYPOq0svKywlWdaY=
+
+"@bit/grommet.grommet.utils.prop-types@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.prop-types/-/grommet.grommet.utils.prop-types-2.11.1.tgz#a77c8371794ebaa2c0902e26add3aa5bc1f67772"
+  integrity sha1-p3yDcXlOuqLAkC4mrdOqW8H2d3I=
+  dependencies:
+    react-desc "^4.1.2"
+
+"@bit/grommet.grommet.utils.responsive@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.responsive/-/grommet.grommet.utils.responsive-2.11.1.tgz#43011e987eff365b3a10f112e72b00d28a87453b"
+  integrity sha1-QwEemH7/Nls6EPES5ysA0oqHRTs=
+
+"@bit/grommet.grommet.utils.router@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.router/-/grommet.grommet.utils.router-2.11.1.tgz#b973225726fb74047d70607f269ffba909068c13"
+  integrity sha1-uXMiVyb7dAR9cGB/Jp/7qQkGjBM=
+  dependencies:
+    react-desc "^4.1.2"
+
+"@bit/grommet.grommet.utils.styles@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.styles/-/grommet.grommet.utils.styles-2.11.1.tgz#b4a2a80d4a180b00eda005483253c9a3afc1c14d"
+  integrity sha1-tKKoDUoYCwDtoAVIMlPJo6/BwU0=
+  dependencies:
+    "@bit/grommet.grommet.utils.background" "2.11.1"
+    "@bit/grommet.grommet.utils.colors" "2.11.1"
+    "@bit/grommet.grommet.utils.mixins" "2.11.1"
+
+"@bit/grommet.grommet.utils.theme-doc-utils@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.theme-doc-utils/-/grommet.grommet.utils.theme-doc-utils-2.11.1.tgz#214bc59a6720224f80f577bff828e298bc10e16c"
+  integrity sha1-IUvFmmcgIk+A9Xe/+CjimLwQ4Ww=
+
+"@bit/grommet.grommet.utils.throttle@2.11.1":
+  version "2.11.1"
+  resolved "https://node.bit.dev/grommet.grommet.utils.throttle/-/grommet.grommet.utils.throttle-2.11.1.tgz#0f90178069bf075969987891bfea91daadeb26cc"
+  integrity sha1-D5AXgGm/B1lpmHiRv+qR2q3rJsw=
+
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
