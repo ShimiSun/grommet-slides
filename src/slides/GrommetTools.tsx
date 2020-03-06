@@ -108,7 +108,7 @@ const Grommet = () => (
 );
 export default () => (
   <Slide background="light-4">
-    <Box direction="row" fill gap="large">
+    <Box align="center" justify="center" direction="row" fill gap="large">
       <Mui />
       <Grommet />
       <Bootstrap />

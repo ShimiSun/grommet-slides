@@ -28,6 +28,7 @@ import Theming from './Theming';
 import ThemeGif from './ThemeGif';
 import TShirt from './TShirt';
 import Thanks from './Thanks';
+import LiveDemo from './LiveDemo';
 
 const slides = [
   Shimi,
@@ -59,6 +60,7 @@ const slides = [
   Theming,
   ThemeGif,
   TShirt,
+  LiveDemo,
   Thanks,
 ];
 

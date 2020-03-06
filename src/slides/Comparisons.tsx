@@ -15,6 +15,7 @@ interface IProps {
 const Bubble = ({ color, children, animation }: IProps) => (
   <Box
     align="center"
+    alignSelf="center"
     alignContent="center"
     animation={animation}
     background={color}
@@ -131,7 +132,7 @@ const Grommet = () => (
 );
 export default () => (
   <Slide animation="slideUp" background="light-4">
-    <Box direction="row" fill gap="large">
+    <Box align="center" justify="center" direction="row" fill gap="large">
       <Mui />
       <Grommet />
       <Bootstrap />
