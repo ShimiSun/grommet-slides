@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2fc093db-8036-45c4-8e0f-63aa28b42c4e/deploy-status)](https://app.netlify.com/sites/grommet-meetup/deploys)
+
 # grommet slides
 
 Fork this repository to create a web-based slide presentation.
